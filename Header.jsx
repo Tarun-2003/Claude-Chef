@@ -1,16 +1,10 @@
-function Header(){
+import chefClaudeLogo from "./images/chef-claude-icon.png"
+
+export default function Header() {
     return (
-        <>
-        <div className="main"> 
-            <img src="./images/chef-claude-icon.png" width="50" height="50" alt="Chef Claude" />
-
-            <h3>Chef Claude</h3>
-        </div>
-        
-        
-        
-        </>
+        <header>
+            <img src={chefClaudeLogo}/>
+            <h1>Chef Claude</h1>
+        </header>
     )
-
 }
-export default Header;
